@@ -1,0 +1,52 @@
+/* ----------- BACKGROUND ----------- */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title */
+.app-title {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(90deg,#ff9966,#ff5e62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
+}
+
+/* Section */
+.section-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 35px;
+    border-left: 6px solid #ff5e62;
+    padding-left: 10px;
+}
+
+/* Cards */
+.card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    margin-top: 15px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg,#1c1c1c,#3a3a3a);
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(90deg,#ff9966,#ff5e62);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    height: 3em;
+    width: 100%;
+    border: none;
+}
