@@ -5,6 +5,5 @@ def fitness_advice(predicted_loss):
 
     elif predicted_loss < 1.5:
         return "Good progress. Stay consistent and improve sleep."
-
     else:
         return "Excellent progress! Maintain routine and stay hydrated."
